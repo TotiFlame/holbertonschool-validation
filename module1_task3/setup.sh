@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get update
 apt-get install wget
-sudo apt-get install make
+apt-get install make
 wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.deb
 dpkg -i hugo_0.81.0_Linux-64bit.deb
 make build
