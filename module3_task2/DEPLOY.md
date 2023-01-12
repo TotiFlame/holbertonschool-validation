@@ -13,4 +13,4 @@ depend on the specific application. However, many applications allow you
 to specify a custom log file location through a configuration file or command 
 line option.
 ## How to “quickly” verify that the application is running (healthcheck)?
-You can quickly verify with curl http://localhost:8000/health
+You can quickly verify with curl "http://localhost:8000/health"
