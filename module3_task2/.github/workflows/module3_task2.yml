@@ -11,7 +11,7 @@ jobs:
       - run: cd module3_task2 && ./setup.sh
       - run: cd module3_task2 && make build
       - run: cd module3_task2 && make clean
-      - run: cd module3_task1 && make POST_NAME=name POST_TITLE=title post
+      - run: cd module3_task2 && make POST_NAME=name POST_TITLE=title post
       - run: cd module3_task2 && make help
       - run: cd module3_task2 && make hello
       - run: cd module3_task2 && make package
