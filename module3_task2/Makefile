@@ -12,3 +12,6 @@ package: ## Create the zip file
 	zip -r awesome-website.zip awesome-api dist/
 lint: ## Update to lint the files README.md and DEPLOY.md with markdownlint command line
 	markdownlint --fix DEPLOY.md
+unit-tests: ## unit tests
+integration-tests: ## integration tests
+validate: ## validate
